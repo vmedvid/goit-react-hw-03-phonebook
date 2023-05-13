@@ -34,6 +34,8 @@ export const Button = styled.button`
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   &:hover {
     transform: scale(1.05);
   }
